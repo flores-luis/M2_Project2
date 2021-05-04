@@ -3,6 +3,7 @@
 <img src="https://miro.medium.com/max/882/1*D5zGIGFZoEO4uCTriOj4xg.jpeg" alt="git/GitHub.Image"/>
 
 > Replicate a wordpress webpage as best as possible, using Bootstrap.
+
 > Use Git for future projects
 
 ---
