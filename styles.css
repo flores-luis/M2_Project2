@@ -6,14 +6,59 @@
     color: rgb(255, 255, 255);
 }
 
-#mainArea {
+.header {
     background-image: url("images/wallpaper.jpeg");
-    height: 100vh;
-    width: 100%;
+    background-position: center;
+    height: 2vh;
+    max-width: 100%;
 }
 
 #mainAreaContent {
     text-align: center;
-    display: block;
-    align-items: center;
+}
+
+#section2 {
+    text-align: center;
+    background-color: #9acd32;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#section2 > h4 {
+    font-size: 40px;
+}
+
+#section2 > p {
+    font-size: 20px;
+    color: rgb(241, 241, 241);
+}
+
+#section3 {
+    padding: 70px 70px;
+    background-color: rgb(255, 255, 255);
+}
+#section3 > .row {
+    text-align: center;
+}
+
+#mic {
+    border-radius: 75%;
+}
+
+#section3text {
+    padding: 50px 50px;
+}
+
+#section3text > h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+#section3text > p {
+    font-size: 25px;
+    color: rgb(184, 183, 183);
+}
+
+#section3text > button {
+    background-color: #9acd32;
+    border: none;
 }
