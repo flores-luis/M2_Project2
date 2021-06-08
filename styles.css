@@ -11,9 +11,9 @@
     height: 100vh;
     width: 100%;
 }
-#mainArea > h1,
-#mainArea > p,
-#mainArea > button {
-    display: flex;
-    justify-content: center;    
+
+#mainAreaContent {
+    text-align: center;
+    display: block;
+    align-items: center;
 }
