@@ -36,19 +36,16 @@ header {
     color: rgb(36, 36, 36) !important;
 }
 /* Main Area Styling*/
-
-#mainArea {
-    text-align: center;
+header {
     display: flex;
     justify-content: center;
-}
-
-#mainAreaContent {
-    padding: 100px 15px 70px;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
 }
 
 #mainAreaContent > h1 {
-    font-size: 60px;
+    font-size: 40px;
     padding: 15px;
 }
 
@@ -59,10 +56,9 @@ header {
 }
 
 #mainAreaContent > button {
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(255, 255, 255);
     background-color: #9acd32;
-    padding: 15px 30px;
 }
 
 /* 2nd Section Styling*/
@@ -228,3 +224,18 @@ footer {
     padding: 50px;
     font-size: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    header {
+        height: 100vh;
+    }
+    h1 {
+        font-size: 80px !important; 
+    }
+    p {
+        font-size: 30px !important; 
+    }
+    button {
+        font-size: 20px !important; 
+    }
+  }
