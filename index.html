@@ -52,16 +52,17 @@
           </div>
         </div>
     </nav>
-    <!-- First/Front area with main image -->
+    <!-- First/Front area with main image (Mountains)-->
     <header>
       <div id="mainArea">
-        <div id="mainAreaContent" class="col-sm-12">
+        <div id="mainAreaContent" class="col-md-6">
           <H1>Dramatically Engage</H1>
           <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
           <button type="button" class="btn rounded-pill">ENGAGE NOW</button>
         </div>
       </div>
     </header>
+    <!--2nd Section (w/Apple Image)-->
     <div id="section2" class="container-fluid">
       <i class="fa fa-apple fa-5x" aria-hidden="true"></i>
       <h4>Completely synergize resource taxing relationships</h4>
@@ -69,6 +70,7 @@
         Dynamically innovate resource-leveling customer service for state of the art customer service.
       </p>
     </div>
+    <!--3rd Section (w/Mic Image)-->
     <div id="section3" class="container-fluid">
       <div class="row">
         <div class="col-lg-6 col-md-12" >
@@ -83,58 +85,68 @@
         </div>
       </div>
     </div>
-      <div id="section4" class="container-fluid">
-        <div id="section4cont" class="container">
-          <div class="row">
-            <div id="section4text" class="col">
-              <h2>Superior Quality</h2>
-              <p>Holisticly predominate extensible testing procedures for reliable supply chains. 
-                Dynamically innovate resource-leveling customer service for state of the art customer service.
-              </p>
-              <button type="button" class="btn btn-light btn-lg rounded-pill">TEST IT</button>
-            </div>
-            <div id="section4img" class="col">
-              <img src="images/iphone.jpeg" alt="iphoneImage">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="section5" class="container-fluid">
+    <!--4th Section (w/Cell Phone Image)-->
+    <div id="section4" class="container-fluid">
+      <div id="section4cont" class="row">
         <div class="row">
-          <div id="image1" class="col-lg-4 col-md-12 im1">
-            <h2>Unleash</h2>
+          <div id="section4text" class="col-md-12 col-lg-6">
+            <h2>Superior Quality</h2>
+            <p>Holisticly predominate extensible testing procedures for reliable supply chains. 
+                Dynamically innovate resource-leveling customer service for state of the art customer service.
+            </p>
+            <button type="button" class="btn btn-light btn-lg rounded-pill">TEST IT</button>
           </div>
-          <div id="image2" class="col-lg-4 col-md-12 im2">
-            <h2>Synergize</h2>
-          </div>
-          <div id="image3" class="col-lg-4 col-md-12 im3">
-            <h2>Procrastinate</h2>
+          <div id="section4img" class="col-md-12 col-lg-6">
+            <img src="images/iphone.jpeg" alt="iphoneImage">
           </div>
         </div>
       </div>
-      <div id="section6" class="container-fluid">
-        <i class="fas fa-thumbtack fa-3x"></i>
-        <h4>Sanity Check</h4>
-        <p>Holisticly predominate extensible testing procedures for reliable supply chains. 
-          Dynamically innovate resource-leveling customer service for state of the art customer service.
-        </p>
-        <button type="button" class="btn btn-success btn-lg rounded-pill">CHECK NOW</button>
-      </div>
-      <footer>
-        <div id="footer1" class="row">
-          <div class="container">
-            <h4>Contact Us</h4>
-            <i class="fas fa-phone fa-3x"></i>
-            <h6>+123-456-7890</h6>
-            <i class="fas fa-envelope fa-3x"></i>
-            <h6>info@example.com</h6>  
-          </div>
-        </div>
-        <div id="footer2" class="row">
-          <h6>@Copyright Example.com 2015</h6>
-        </div>
-      </footer>
     </div>
+    <!--5th Section (w/3 separate images)-->
+    <div id="section5" class="container-fluid">
+      <div class="row">
+        <div id="image1" class="col-lg-4 col-md-12 im1">
+          <h2>Unleash</h2>
+        </div>
+        <div id="image2" class="col-lg-4 col-md-12 im2">
+          <h2>Synergize</h2>
+        </div>
+        <div id="image3" class="col-lg-4 col-md-12 im3">
+          <h2>Procrastinate</h2>
+        </div>
+      </div>
+    </div>
+    <!--6th Section (Pin Icon and Sanity Check Title)-->
+    <div id="section6" class="container-fluid">
+      <i class="fas fa-thumbtack fa-3x"></i>
+      <h4>Sanity Check</h4>
+      <p>Holisticly predominate extensible testing procedures for reliable supply chains. 
+        Dynamically innovate resource-leveling customer service for state of the art customer service.
+      </p>
+      <button type="button" class="btn btn-success btn-lg rounded-pill">CHECK NOW</button>
+    </div>
+    <!--7th Section FOOTER (Includes 2 inner section contact info and copyright info)-->
+    <footer>
+      <div id="footer1" class="row">
+        <div class="container">
+          <h4>Contact Us</h4>
+          <i class="fas fa-phone fa-3x"></i>
+          <h6>+123-456-7890</h6>
+          <i class="fas fa-envelope fa-3x"></i>
+          <h6>info@example.com</h6>  
+        </div>
+      </div>
+      <div id="footer2" class="row">
+        <h6>@Copyright Example.com 2015</h6>
+      </div>
+    </footer>
+
+    <!--Media Queries-->
+    @media only screen and (min-width:768px) 
+    #mainArea { 
+      padding: 0 50px;
+    }
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>

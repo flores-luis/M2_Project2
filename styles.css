@@ -3,9 +3,13 @@
 */
 
 * {
+    margin: 0;
+    padding: 0;
     color: rgb(255, 255, 255);
     box-sizing: border-box;
 }
+
+/* Nav styling*/
 #Nav,
 #Nav > .container {
     background-color: rgb(0, 0, 0);
@@ -16,7 +20,6 @@ header {
     background-image: url("images/wallpaper.jpeg");
     background-position: center;
     background-size: cover;
-    padding: 40vh;
 }
 
 .navbar-brand,
@@ -32,26 +35,37 @@ header {
 #Nav > div > button > i {
     color: rgb(36, 36, 36) !important;
 }
+/* Main Area Styling*/
 
 #mainArea {
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#mainAreaContent {
+    padding: 100px 15px 70px;
 }
 
 #mainAreaContent > h1 {
-    font-size: 120px;
+    font-size: 60px;
+    padding: 15px;
 }
 
 #mainAreaContent > p {
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(184, 183, 183);
+    padding: 15px;
 }
 
 #mainAreaContent > button {
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     background-color: #9acd32;
-    padding: 20px 30px;
+    padding: 15px 30px;
 }
+
+/* 2nd Section Styling*/
 
 #section2 {
     text-align: center;
@@ -68,15 +82,19 @@ header {
     color: rgb(241, 241, 241);
 }
 
+/* 3rd Section Styling*/
+
 #section3 {
-    padding: 30px 30px;
+    padding: 20px 20px;
     background-color: rgb(255, 255, 255);
 }
-#section3 > .row {
-    text-align: center;
+
+#section3text {
+    padding: 15px;
 }
 
 #mic {
+    padding: 15px;
     border-radius: 75%;
     width: 100%;
 }
@@ -97,26 +115,21 @@ header {
     padding: 10px;
     border: none;
 }
-.col-lg-6 {
-    justify-content: space-between;
-}
+
+/* 4th Section Styling*/
 
 #section4 {
     background-color: rgb(36, 36, 36);
 }
 
-#section4cont {
-    display: flex;
-    text-align: center;
-}
-
 #section4cont > div {
-    align-items: center;
-    padding: 50px 50px;
+    padding: 30px 30px;
 }
 
 #section4img > img {
-    border-radius: 50%;
+    padding: 15px;
+    border-radius: 75%;
+    width: 100%;
 }
 
 #section4text > h2 {
@@ -129,13 +142,14 @@ header {
 }
 
 #section4text > button {
-    padding: 15px;
+    padding: 10px;
 }
+
+/* 5th Section Styling*/
 
 .im1, .im2, .im3 {
     background-size: cover;
     background-position: 50% 50%;
-    filter: brightness(70%);
 }
 
 #image1 {
@@ -153,17 +167,17 @@ header {
 #image1 > h2,
 #image2 > h2,
 #image3 > h2 {
-    align-items: center;
-    margin: 120px;
-    font-size: 50px;
-    color: rgb(255, 255, 255);
+    font-size: 40px;
     text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 80px;
 }
 
+/* 6th Section Styling*/
+
 #section6 {
-    height: 400px;
     text-align: center;
-    padding: 70px;
+    padding: 50px;
 }
 
 #section6 > i {
@@ -185,23 +199,22 @@ header {
     padding: 20px;
 }
 
+/* 7th Section/Footer Styling*/
+
 footer {
     background-color: #9acd32;
     text-align: center;
 }
-#footer1 {
-    height: 500px;
-    justify-content: space-around;
-}
+
 #footer1 > .container {
-    padding: 50px;
+    padding: 70px;
 }
 
 #footer1 > .container > h4,
 #footer1 > .container > i,
 #footer1 > .container > h6 {
-    padding: 15px;
-    font-size: 35px;
+    padding: 5px;
+    font-size: 30px;
 }
 
 #footer2 {
@@ -211,7 +224,7 @@ footer {
 }
 
 #footer2 > h6 {
-    color: rgb(36, 36, 36);
+    color: rgb(196, 196, 196);
     padding: 50px;
     font-size: 20px;
 }
